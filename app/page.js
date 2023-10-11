@@ -1,95 +1,27 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import React from 'react';
+import Image from "next/image";
 
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+const page = () => {
+    return (
+<section className='bio-wrapper' style={{backgroundColor: '#2d3540'}}>
+<div className='main-bio'>
+    <section>
+        <h1 className='main-heading'>Hello!</h1> <span className='main-span'>I'm <strong>Ade Olaoye</strong></span>
+    </section>
+</div>
+<div className='greeting'><h4>More About Me</h4></div>
+<p>Hi there! My pseudo-name is olaDev and I have passion for coding.</p>
+<p>
+I am a newbie in coding but with dedication and commitment to learning, I am growing fast and a geometric rate.
+I am an ex-investment banker and currently an estate developer. I ventured into web development as an act of passion for tech and website development and since then I have found it quite interesting as two days are never the same.</p>
+<p>I studied different programming languages at the University of Birmingham following my earlier degrees in Banking & Finance. It is worthy to mention that I found Web Engineering so empowering. I am now working as a Software developer with skills in FrontEnd Web development. I have skills in HTML, CSS, JavaScript, jQuery, Bootstraps, Node.js, Reacts and many more and these has equipped me to work and deliver on a variety of development projects.</p>
+<p>As a developer, given my background in investment banking, I have a good knowledge of service users requirements both in the public and private sectors that can enhance the delivery of a perfect website. I am a team player, a visioner who is keen to work collaboratively, not only to achieve organisational goals/objectives but also add value to the bottom-line.</p> 
+<p>I work remotely as a freelancer in FrontEnd Web Development but could also take on permanent or consulting role in your establishment with a view to making your system/website more vibrant, agile and dynamic to meet your clients or customers need and by extension your profit and social responsibility goals
+ Please feel free to hit me up via the contact below.
+</p>
+</section>
+)
 }
+
+
+export default page;
