@@ -11,16 +11,16 @@ const Navigation = ({ isMenuOpen, setModalOpen }) => {
       <ul className={`modal-content ${isMenuOpen ? 'full-modal-content' : ''}`}>
         <li>
           <Link href='/' className='link' onClick={() => setModalOpen(false)}>
-            Home
+            About
           </Link>
         </li>
         <li>
-          <Link href='/projects' className='link' onClick={() => setModalOpen(false)}>
+          <Link href='/' className='link' onClick={() => setModalOpen(false)}>
             Projects
           </Link>
         </li>
         <li>
-          <Link href='/contact' className='link' onClick={() => setModalOpen(false)}>
+          <Link href='/' className='link' onClick={() => setModalOpen(false)}>
             Contact
           </Link>
         </li>

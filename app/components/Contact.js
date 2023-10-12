@@ -40,13 +40,7 @@ const Contact = () => {
                   <RiMailSendFill className='sideIcon' />
                 </div>
               </button>
-              <p
-                style={{
-                  marginTop: '2rem',
-                  fontSize: '0.8rem',
-                  textAlign: 'center',
-                }}
-              >
+              <p className='email-cta'>
                 or email me{' '}
                 <a className='link-email' href='mailto: adeolaoye56@gmail.com'>
                 here 
@@ -55,7 +49,7 @@ const Contact = () => {
             </section>
           </form>
 
-          <span>Find me here:</span>
+          <span className='social-span'>Find me here:</span>
         <div className='social-icons-wrapper'>
           <section className='bio-icon-container'>
             <a
@@ -90,13 +84,13 @@ const Contact = () => {
         </a>
           </section>
         </div>
-        <span>View my CV here:</span>
+        <span className='resume-span'>View my CV here:</span>
         <br />
         <a href='https://drive.google.com/file/d/1FCHG9Q2WRVCKilxFETruiIrmNK-mMTo-/view?usp=sharing'
           rel='noreferrer'
           target='_blank'
         >
-          <button className='btn'>
+          <button className='btn space'>
             <div className='flexed btn-animate'>
               <span>view resume</span>
             </div>
