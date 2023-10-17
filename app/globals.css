@@ -145,7 +145,7 @@ body {
 .main-bio {
   width: 100%;
   height: 500px;
-  background-image: url("/images/adeolaoye.jpg");
+  background-image: url("/images/profile-pics.jpg");
   /* background-color: #fff; */
   background-size: contain;
   background-repeat: no-repeat;
@@ -508,22 +508,10 @@ label {
   }
 }
 
-@media (min-width: 768px) {
-  .formstyle {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .name-email-wrapper {
-    display: flex;
-    justify-content: space-between;
-  }
+@media (min-width: 1024px) {
   .right,
   .left {
-    width: 600px;
-  }
-  .right {
-    float: right;
+    width: 550px;
   }
 }
 
@@ -543,6 +531,18 @@ label {
 }
 .social-icons-wrapper a {
   color: #000;
+}
+
+@media (min-width: 768px) {
+  .social-resume-wrapper {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .social-resume-wrapper {
+    padding: 0 50px;
+  }
 }
 
 .sm-font {
