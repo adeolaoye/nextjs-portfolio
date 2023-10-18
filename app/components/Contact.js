@@ -86,7 +86,7 @@ const Contact = () => {
         </div>
         <span className='resume-span'>View my CV here:</span>
         <br />
-        <a href='https://drive.google.com/file/d/1FCHG9Q2WRVCKilxFETruiIrmNK-mMTo-/view?usp=sharing'
+        <a href='https://drive.google.com/file/d/1qEQovFRrBw3I5vP946zBjpKCPqlpJYxx/view?usp=sharing'
           rel='noreferrer'
           target='_blank'
         >
