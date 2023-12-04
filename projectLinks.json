@@ -40,5 +40,12 @@
         "url": "https://adeolaoye.github.io/05-password-generator/",
         "gitUrl": "https://github.com/adeolaoye/05-password-generator",
         "src": "/images/pass-gen.jpg"
+      },
+    {
+        "id": 7,
+        "title": "FaceDuo",
+        "url": "https://faceduo.netlify.app/",
+        "gitUrl": "https://github.com/faladetimilehin/matching-game",
+        "src": "/images/matching-game.png"
       }
   ]
