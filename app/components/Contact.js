@@ -76,7 +76,7 @@ const Contact = () => {
                 github
               </span>
             </a>
-            <a href='tel:+44-7455026726'>
+            <a href='tel:+44-7473365424'>
           <BsFillTelephoneFill className='bio-icon' />
           <span className='icon-text'>
                 mobile
@@ -86,7 +86,7 @@ const Contact = () => {
         </div>
         <span className='resume-span'>View my CV here:</span>
         <br />
-        <a href='https://docs.google.com/document/d/13AUPnsT1BdpvHPCOu1AzWZbSyalkp9Ft/edit?usp=drive_link&ouid=110962759799472107116&rtpof=true&sd=true'
+        <a href='https://docs.google.com/document/d/1hat_RCbQq6ZXOJD1DyuEeiOoWQdSf9uj/edit?usp=drive_link&ouid=110962759799472107116&rtpof=true&sd=true'
           rel='noreferrer'
           target='_blank'
         >
